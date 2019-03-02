@@ -1,4 +1,7 @@
 
+# "cmd + shft + s" para executar codigo...
+#
+# "ctrl + l" para limpar a consola
 
 a <- c(9, 16, 25)
 b <- sqrt(a)
@@ -16,8 +19,8 @@ for (i in 1:10) {
 
 
 ds <- c(1.5, 6.7, 8.9) * 1:12
-ds
+print(ds)
 
 
-
-mean(ds)
+mds <- mean(ds)
+print(mds)
